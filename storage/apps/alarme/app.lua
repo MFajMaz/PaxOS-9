@@ -3,6 +3,7 @@ global_list = {
     { time = "09:30", enabled = 0 }
 }
 
+
 function reloadProcess()
     system.app.stopApp("alarme..task")
     launch("alarme..task")
